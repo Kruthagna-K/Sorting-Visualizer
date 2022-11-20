@@ -1,0 +1,73 @@
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Sorting Visualizer</title>
+            <link rel="stylesheet" href="./css/style.css">
+        </head>
+    <body>
+        <header>
+            <nav>
+                <div class="array-inputs">
+                    <p>Size of arary</p>
+                    <input id="a_size" type="range" min=5 max=250 step=5 value=80>
+                    <p>Speed of algorithm:</p>
+                    <input id="a_speed" type="range" min=1 max=10 step=1 value=3>
+                    <button id="a_generate">Generate new array!</button>
+                </div>
+                
+
+                <div class="header_right">
+                    <p class="nav_heading">Sorting visualizer</p>
+
+
+                    <div class="algos">
+                        <button>Bubble</button>
+                        <button>Selection</button>
+                        <button>Insertion</button>
+                        <button>Merge</button>
+                        <button>Quick</button>
+                        <button>Heap</button>
+                        <button>Rev_B</button>
+                        <button>Rev_S</button>
+                        <button>Rev_I</button>
+                        <button>Rev_M</button>
+                        <button>Rev_Q</button>
+                        <button>Rev_H</button>
+                        <!--button>Merge_rev</button-->
+                        <!--button style="margin-right:0px;">Heap</button-->
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div id="Info_cont1">
+                <p>LEGEND</p>
+                <p>Yellow-selection of element</p>
+            </div>
+            <div id="array_container"></div>
+            <div id="Info_cont2">
+                <p>This is second container</p>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+
+        <script src="./scripts/main.js"></script>
+        <script src="./scripts/visualization.js"></script>
+        <script src="./scripts/bubble_sort.js"></script>
+        <script src="./scripts/bubble_sort_rev.js"></script>
+        <script src="./scripts/merge_sort.js"></script>
+        <script src="./scripts/merge_sort_rev.js"></script>
+        <script src="./scripts/selection_sort.js"></script>
+        <script src="./scripts/selection_sort_rev.js"></script>
+        <script src="./scripts/insertion_sort.js"></script>
+        <script src="./scripts/insertion_rev.js"></script>
+        <script src="./scripts/quick_sort.js"></script>
+        <script src="./scripts/quick_sort_rev.js"></script>
+        <!--script src="./scrips/heap_sort.js"></script-->
+    </body>
+</html>
